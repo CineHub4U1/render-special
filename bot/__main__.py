@@ -74,7 +74,7 @@ async def start(_, message):
     elif config_dict['DM_MODE']:
         start_string = f'<b>Welcome to SivaSoft!</b>\n\nYour files or links will be sent to you here.\n'
     else:
-        start_string = f'<b>Welcome to the era of SivaSoft!</b>\n\nThis bot can upload all your links or Telegram files to Google Drive, Telegram, or Rclone destination!\n'
+        start_string = f'<b>Welcome to the SivaSoft!</b>\n\nThis bot can upload all your links or Telegram files to Google Drive, Telegram, or Rclone destination!\n'
               
     await sendMessage(message, start_string)
 
